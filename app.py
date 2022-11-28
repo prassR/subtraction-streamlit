@@ -16,4 +16,4 @@ data = user_input();
 x = data["A"]
 y = data["B"]
 z = x - y
-st.write("###"+x[0]+" - "+y[0]+" = "+z[0])  
+st.write("###"+np.array2string(x[0])+" - "+np.array2string(y[0])+" = "+np.array2string(z[0]))  
