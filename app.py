@@ -9,7 +9,8 @@ def user_input():
   a = st.number_input("Enter first number...")
   b = st.number_input("Enter second number...")
   data = {"A":a, "B":b}
-  return pd.DataFrame(data)
+  input = pd.DataFrame(data, index=[0])
+  return input
 
 data = user_input();
 st.write(data.to_dict())
