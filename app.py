@@ -16,4 +16,4 @@ data = user_input();
 x = data["A"]
 y = data["B"]
 z = x - y
-st.write(z.values())  
+st.write(z[0])  
