@@ -12,8 +12,9 @@ def user_input():
   input = pd.DataFrame(data, index=[0])
   return input
 
-data = user_input();
-x = data["A"]
-y = data["B"]
+#data = user_input();
+x = st.number_input("Enter first number...")
+y = st.number_input("Enter second number...")
 z = x - y
-st.write("###"+np.array2string(x[0])+" - "+np.array2string(y[0])+" = "+np.array2string(z[0]))  
+st.write(x+" - "+y+" = "+z)
+#st.write("###"+np.array2string(x[0])+" - "+np.array2string(y[0])+" = "+np.array2string(z[0]))  
