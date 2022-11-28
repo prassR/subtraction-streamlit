@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 st.write("# My Subtraction Application")
-st.write("Subtract two numbers...")
+st.write("Subtraction of two numbers...")
 
 def user_input():
   a = st.number_input("Enter first number...")
@@ -13,4 +13,6 @@ def user_input():
 
 data = user_input();
 st.write(data.to_dict())
-st.write(data["A"]-data["B"])  
+x = data["A"]
+y = data["B"]
+st.write(x-y)  
