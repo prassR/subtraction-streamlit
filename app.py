@@ -16,4 +16,5 @@ data = user_input();
 st.write(data.to_dict())
 x = data["A"]
 y = data["B"]
-st.write(x-y)  
+z = x - y
+st.write(z)  
