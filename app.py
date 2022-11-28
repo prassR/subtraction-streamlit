@@ -13,4 +13,4 @@ def user_input():
 
 data = user_input();
 st.write(data.to_dict())
-st.wite(data["A"]-data["B"])  
+st.write(data["A"]-data["B"])  
