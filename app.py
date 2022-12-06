@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.write("My Subtraction Application")
+st.write("Subtraction Application")
 st.write("Subtraction of two numbers...")
 
 
